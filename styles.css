@@ -13,6 +13,7 @@
   --White: #FFFFFF;
   --Yellow: #FFB21E;
   --Yellow-White: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+  --Very-Light-Blue: #ECF2FF;
 }
 
 /* CSS RESET */
@@ -27,10 +28,12 @@
 }
 
 body {
+  background-color: var(--Very-Light-Blue);
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+
 }
 
 /* 5. Improve media defaults */
@@ -107,12 +110,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-preset-5 {
   color: var(--Light-Blue);
-font-family: "Hanken Grotesk", serif;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-align: center;
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
 }
 
 .text-preset-6 {
@@ -144,5 +147,50 @@ text-align: center;
   text-align: none
 }
 
+/* LAYOUT*/
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+  height: 50.6rem;
+  width: 23.4rem;
+  margin: 0 auto;
+}
 
+.result-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 23.4rem;
+  height: 22.3rem;
+  background: var(--Gradient);
+  border-radius: 0 0 2rem 2rem;
+}
+
+.result-box-header{
+  margin-top: 1.5rem;
+}
+
+.result-number-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 8.75rem;
+  width: 8.75rem;
+  background: var(--Gradient-2);
+  border-radius: 50%;
+}
+
+.results-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text-box{
+  width: 16.25rem;
+}
 
