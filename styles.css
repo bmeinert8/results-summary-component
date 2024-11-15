@@ -1,0 +1,148 @@
+/* CSS VARIABLES*/
+:root {
+  --Blue: #1125D6;
+  --Blue-White: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+  --Dark-Navy: #303B59; 
+  --Gradient: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+  --Gradient-2: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+  --Green: #00BB8F;
+  --Green-White: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+  --Light-Blue: #CAC9FF;
+  --Red: #FF5555;
+  --Red-White:linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FF5555;
+  --White: #FFFFFF;
+  --Yellow: #FFB21E;
+  --Yellow-White: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+}
+
+/* CSS RESET */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* TYPOGRAPHY*/
+
+.text-preset-1 {
+  color: var(--Light-Blue);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.text-preset-2 {
+  color: var(--White);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 4.5rem; /* 128.571% */
+  text-align: center;
+}
+
+.text-preset-3 {
+  color: var(--Light-Blue);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-preset-4 {
+  color: var(--White);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.text-preset-5 {
+  color: var(--Light-Blue);
+font-family: "Hanken Grotesk", serif;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+
+.text-preset-6 {
+  color: var(--Dark-Navy);
+  font-family: "Hanken Grotesk", serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.summary-blue {
+  color: var(--Blue);
+  text-align: none
+}
+
+.summary-green {
+  color: var(--Green);
+  text-align: none
+}
+
+.summary-red {
+  color: var(--Red);
+  text-align: none
+}
+
+.summary-yellow {
+  color: var(--Yellow);
+  text-align: none
+}
+
+
+
