@@ -1,0 +1,80 @@
+@media (min-width: 48rem) {
+  .main {
+    flex-direction: row;
+    height: 32rem;
+    width: 46rem;
+    justify-content: center;
+    margin-top: 10rem;
+    border-radius:2rem;
+  }
+
+  .result-box {
+    height: 32rem;
+    border-radius: 2rem;
+    gap: 1.8rem;
+  }
+  .result-box-header {
+    margin-top: 2.38rem;
+  }
+
+  .text-preset-1 {
+    font-size: 1.5rem;
+  }
+
+  .result-number-box {
+    height: 12.5rem;
+    width: 12.5rem;
+  }
+
+  .text-preset-2 {
+    font-size: 4.5rem;
+  }
+
+  .text-preset-3 {
+    font-size: 1.125rem;
+  }
+
+  .results-text-box {
+    gap: 0.88rem;
+  }
+
+  .text-preset-4 {
+    font-size: 2rem;
+  }
+
+  .text-preset-5 {
+    font-size: 1.125rem;
+  }
+
+  .result-summary-box {
+    gap: 2.25rem;
+    height: 32rem;
+  }
+
+  .result-summary-header {
+    margin-top: 2.38rem;
+    margin-left: 2.5rem;
+  }
+
+  .text-preset-6 {
+    font-size: 1.5rem;
+  }
+
+  .result-summary-stats {
+    width: 18rem;
+  }
+
+  .result-bar {
+    gap: 5.25rem;
+  }
+
+  .result-bar-button {
+    width: 18rem;
+  }
+
+  .result-bar-button:hover {
+    background: var(--Gradient);
+    cursor: pointer;
+  }
+
+}
