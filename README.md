@@ -3,6 +3,7 @@
 This project is a web component that displays a summary of results, including individual scores and a total score. It is styled using CSS and includes responsive design for different screen sizes.
 
 ## Project Structure
+
 results-summary-component/
 ├── assets/
 │    images 
@@ -41,7 +42,7 @@ The project includes responsive design using media queries defined in `medias.cs
 
 ## Future Updates
 
-For future updates I plan on having the summary scores be extracted from a JSON document instead of hard coded into the project.
+For future updates I plan on having the summary scores data to be populated from a JSON document instead of hard coded into the project using JS.
 
 ## License
 
